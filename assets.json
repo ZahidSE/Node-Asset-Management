@@ -1,0 +1,10 @@
+{
+	"jquery-bundle":{
+		"js":{
+			"public/dist/jquery-bundle.min.js":[
+				"public/lib/jquery/dist/jquery.min.js",
+				"public/lib/magnific-popup/dist/jquery.magnific-popup.min.js"
+			]
+		}
+	}
+}
