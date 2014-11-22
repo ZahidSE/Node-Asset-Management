@@ -1,1 +1,0 @@
-alert "inner directory files"
