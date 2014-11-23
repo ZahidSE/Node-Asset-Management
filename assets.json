@@ -1,10 +1,16 @@
 {
-	"jquery-bundle":{
-		"js":{
-			"public/dist/jquery-bundle.min.js":[
-				"public/lib/jquery/dist/jquery.min.js",
-				"public/lib/magnific-popup/dist/jquery.magnific-popup.min.js"
-			]
-		}
+	"sample-bundle":{
+	  "js":{
+		"public/build/scripts/sample.min.js":[
+		  "public/scripts/sample-1.js",
+		  "public/scripts/sample-2.js"
+		]
+	  },
+	  "css":{
+		"public/build/styles/sample.min.css":[
+		  "public/styles/sample-1.css",
+		  "public/styles/sample-2.css"
+		]
+	  }
 	}
 }
