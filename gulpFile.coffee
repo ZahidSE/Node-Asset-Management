@@ -210,4 +210,4 @@ gulp.task("watch:images", ["initialize"], ->
 gulp.task("dev", ["clean", "bundle:styles", "bundle:scripts", "optimize:images", "watch:coffee", "watch:sass", "watch:jade", "watch:images"])
 
 # Default Task Without Watch
-gulp.task("default", ["clean", "bundle:styles", "bundle:scripts", "optimize:images"])
+gulp.task("default", ["clean", "compile:jade", "bundle:styles", "bundle:scripts", "optimize:images"])
